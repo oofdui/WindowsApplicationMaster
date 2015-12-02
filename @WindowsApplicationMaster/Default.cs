@@ -9,22 +9,31 @@ using System.Windows.Forms;
 
 namespace _WindowsApplicationMaster
 {
-    public partial class FlatTheme : Form
+    public partial class Default : Form
     {
         #region GlobalVariable
         ToolTip tt = new ToolTip();
         #endregion
-        public FlatTheme()
+        public Default()
         {
             InitializeComponent();
         }
-        private void FlatTheme_Load(object sender, EventArgs e)
+        private void Default_Load(object sender, EventArgs e)
         {
             setDefault();
         }
         private void mnHome_Click(object sender, EventArgs e)
         {
             setMenuActive("mnHome");
+            DisposeAllButThis();
+
+            var childForm = new Child();
+            childForm.MdiParent = this;
+            childForm.Parent = this.pnDefault;
+            childForm.Text = "Child Test";
+            childForm.WindowState = FormWindowState.Maximized;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Show();
         }
         private void mnAboutUs_Click(object sender, EventArgs e)
         {
@@ -146,6 +155,13 @@ namespace _WindowsApplicationMaster
                         mn.ForeColor = ColorTranslator.FromHtml("#484848");
                     }
                 }
+            }
+        }
+        public void DisposeAllButThis()
+        {
+            foreach (Form frm in this.MdiChildren)
+            {
+                frm.Close();
             }
         }
         #endregion

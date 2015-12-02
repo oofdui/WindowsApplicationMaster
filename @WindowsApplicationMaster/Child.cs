@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace _WindowsApplicationMaster
 {
-    public partial class Form1 : Form
+    public partial class Child : Form
     {
-        public Form1()
+        public Child()
         {
             InitializeComponent();
         }

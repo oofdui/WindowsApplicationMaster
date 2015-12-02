@@ -10,6 +10,7 @@ C:\Users\Oofdui\Dropbox\MyProject\@WindowsApplicationMaster\WindowsApplicationMa
 C:\Users\Oofdui\Dropbox\MyProject\@WindowsApplicationMaster\WindowsApplicationMaster\@WindowsApplicationMaster\bin\Debug\@WindowsApplicationMaster.exe
 C:\Users\Oofdui\Dropbox\MyProject\@WindowsApplicationMaster\WindowsApplicationMaster\@WindowsApplicationMaster\bin\Debug\@WindowsApplicationMaster.pdb
 C:\Users\Oofdui\Dropbox\MyProject\@WindowsApplicationMaster\WindowsApplicationMaster\@WindowsApplicationMaster\obj\Debug\@WindowsApplicationMaster.csprojResolveAssemblyReference.cache
-C:\Users\Oofdui\Dropbox\MyProject\@WindowsApplicationMaster\WindowsApplicationMaster\@WindowsApplicationMaster\obj\Debug\_WindowsApplicationMaster.FlatTheme.resources
 C:\Users\Oofdui\Dropbox\MyProject\@WindowsApplicationMaster\WindowsApplicationMaster\@WindowsApplicationMaster\obj\Debug\_WindowsApplicationMaster.Properties.Resources.resources
 C:\Users\Oofdui\Dropbox\MyProject\@WindowsApplicationMaster\WindowsApplicationMaster\@WindowsApplicationMaster\obj\Debug\@WindowsApplicationMaster.csproj.GenerateResource.Cache
+C:\Users\Oofdui\Dropbox\MyProject\@WindowsApplicationMaster\WindowsApplicationMaster\@WindowsApplicationMaster\obj\Debug\_WindowsApplicationMaster.Default.resources
+C:\Users\Oofdui\Dropbox\MyProject\@WindowsApplicationMaster\WindowsApplicationMaster\@WindowsApplicationMaster\obj\Debug\_WindowsApplicationMaster.Child.resources

@@ -1,6 +1,6 @@
 ﻿namespace _WindowsApplicationMaster
 {
-    partial class FlatTheme
+    partial class Default
     {
         /// <summary>
         /// Required designer variable.
@@ -29,15 +29,12 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FlatTheme));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Default));
             this.tbDefault = new System.Windows.Forms.TableLayoutPanel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.txtSource = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtDestination = new System.Windows.Forms.TextBox();
+            this.pnDefault = new System.Windows.Forms.Panel();
             this.tbHeader = new System.Windows.Forms.TableLayoutPanel();
             this.lblHeader = new System.Windows.Forms.Label();
+            this.pbDefault = new System.Windows.Forms.PictureBox();
             this.tbMenu = new System.Windows.Forms.TableLayoutPanel();
             this.mnHome = new System.Windows.Forms.Button();
             this.mnAboutUs = new System.Windows.Forms.Button();
@@ -46,19 +43,17 @@
             this.lblFooter = new System.Windows.Forms.Label();
             this.pnHR = new System.Windows.Forms.Panel();
             this.tbMenuTop = new System.Windows.Forms.TableLayoutPanel();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.pbDefault = new System.Windows.Forms.PictureBox();
             this.btClose = new System.Windows.Forms.Button();
             this.btMove = new System.Windows.Forms.Button();
             this.btMinimize = new System.Windows.Forms.Button();
             this.btMaximize = new System.Windows.Forms.Button();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.tbDefault.SuspendLayout();
-            this.panel1.SuspendLayout();
             this.tbHeader.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbDefault)).BeginInit();
             this.tbMenu.SuspendLayout();
             this.tbFooter.SuspendLayout();
             this.tbMenuTop.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbDefault)).BeginInit();
             this.SuspendLayout();
             // 
             // tbDefault
@@ -66,7 +61,7 @@
             this.tbDefault.BackColor = System.Drawing.Color.White;
             this.tbDefault.ColumnCount = 1;
             this.tbDefault.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tbDefault.Controls.Add(this.panel1, 0, 3);
+            this.tbDefault.Controls.Add(this.pnDefault, 0, 3);
             this.tbDefault.Controls.Add(this.tbHeader, 0, 1);
             this.tbDefault.Controls.Add(this.tbMenu, 0, 2);
             this.tbDefault.Controls.Add(this.tbFooter, 0, 5);
@@ -86,49 +81,13 @@
             this.tbDefault.Size = new System.Drawing.Size(722, 417);
             this.tbDefault.TabIndex = 4;
             // 
-            // panel1
+            // pnDefault
             // 
-            this.panel1.Controls.Add(this.txtSource);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.txtDestination);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(3, 116);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(716, 278);
-            this.panel1.TabIndex = 0;
-            // 
-            // txtSource
-            // 
-            this.txtSource.Location = new System.Drawing.Point(80, 16);
-            this.txtSource.Name = "txtSource";
-            this.txtSource.Size = new System.Drawing.Size(326, 20);
-            this.txtSource.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 18);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Source";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(11, 44);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 13);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Destination";
-            // 
-            // txtDestination
-            // 
-            this.txtDestination.Location = new System.Drawing.Point(80, 42);
-            this.txtDestination.Name = "txtDestination";
-            this.txtDestination.Size = new System.Drawing.Size(326, 20);
-            this.txtDestination.TabIndex = 1;
+            this.pnDefault.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnDefault.Location = new System.Drawing.Point(3, 116);
+            this.pnDefault.Name = "pnDefault";
+            this.pnDefault.Size = new System.Drawing.Size(716, 278);
+            this.pnDefault.TabIndex = 0;
             // 
             // tbHeader
             // 
@@ -161,6 +120,21 @@
             this.lblHeader.TabIndex = 0;
             this.lblHeader.Text = "ApplicationMaster";
             this.lblHeader.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pbDefault
+            // 
+            this.pbDefault.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pbDefault.BackColor = System.Drawing.Color.Transparent;
+            this.pbDefault.Image = global::_WindowsApplicationMaster.Properties.Resources.icDefault;
+            this.pbDefault.Location = new System.Drawing.Point(5, 3);
+            this.pbDefault.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            this.pbDefault.Name = "pbDefault";
+            this.pbDefault.Size = new System.Drawing.Size(64, 64);
+            this.pbDefault.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pbDefault.TabIndex = 1;
+            this.pbDefault.TabStop = false;
             // 
             // tbMenu
             // 
@@ -293,21 +267,6 @@
             this.tbMenuTop.MouseMove += new System.Windows.Forms.MouseEventHandler(this.tbMenuTop_MouseMove);
             this.tbMenuTop.MouseUp += new System.Windows.Forms.MouseEventHandler(this.tbMenuTop_MouseUp);
             // 
-            // pbDefault
-            // 
-            this.pbDefault.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pbDefault.BackColor = System.Drawing.Color.Transparent;
-            this.pbDefault.Image = global::_WindowsApplicationMaster.Properties.Resources.icDefault;
-            this.pbDefault.Location = new System.Drawing.Point(5, 3);
-            this.pbDefault.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
-            this.pbDefault.Name = "pbDefault";
-            this.pbDefault.Size = new System.Drawing.Size(64, 64);
-            this.pbDefault.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pbDefault.TabIndex = 1;
-            this.pbDefault.TabStop = false;
-            // 
             // btClose
             // 
             this.btClose.Anchor = System.Windows.Forms.AnchorStyles.Right;
@@ -382,7 +341,7 @@
             this.btMaximize.UseVisualStyleBackColor = false;
             this.btMaximize.Click += new System.EventHandler(this.btMaximize_Click);
             // 
-            // FlatTheme
+            // Default
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -390,21 +349,20 @@
             this.ClientSize = new System.Drawing.Size(724, 419);
             this.Controls.Add(this.tbDefault);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FlatTheme";
+            this.IsMdiContainer = true;
+            this.Name = "Default";
             this.Padding = new System.Windows.Forms.Padding(1);
             this.Text = "FlatTheme";
-            this.Load += new System.EventHandler(this.FlatTheme_Load);
+            this.Load += new System.EventHandler(this.Default_Load);
             this.tbDefault.ResumeLayout(false);
             this.tbDefault.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.tbHeader.ResumeLayout(false);
             this.tbHeader.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbDefault)).EndInit();
             this.tbMenu.ResumeLayout(false);
             this.tbFooter.ResumeLayout(false);
             this.tbFooter.PerformLayout();
             this.tbMenuTop.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbDefault)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -412,11 +370,7 @@
         #endregion
 
         private System.Windows.Forms.TableLayoutPanel tbDefault;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox txtSource;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtDestination;
+        private System.Windows.Forms.Panel pnDefault;
         private System.Windows.Forms.TableLayoutPanel tbHeader;
         private System.Windows.Forms.Label lblHeader;
         private System.Windows.Forms.TableLayoutPanel tbMenu;
